@@ -137,6 +137,7 @@
             this.Controls.Add(this.qrCodeTextBox);
             this.Controls.Add(this.barCodeTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
